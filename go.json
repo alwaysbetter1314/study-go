@@ -9,6 +9,10 @@
       {
         "label": "express",
         "url": "https://ghproxy.com/raw.githubusercontent.com/expressjs/express/master/Readme.md"
+      },
+      {
+        "label": "gin",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/gin-gonic/gin/master/README.md"
       }
     ]
   }
