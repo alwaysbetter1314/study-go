@@ -1,0 +1,15 @@
+[
+  {
+    "label": "第一章",
+    "children": [
+      {
+        "label": "简介",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/chenfengshf/study-go/main/README.md"
+      },
+      {
+        "label": "express",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/expressjs/express/master/Readme.md"
+      }
+    ]
+  }
+]
