@@ -13,6 +13,10 @@
       {
         "label": "gin",
         "url": "https://ghproxy.com/raw.githubusercontent.com/gin-gonic/gin/master/README.md"
+      },
+      {
+        "label": "go-ethereum",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/ethereum/go-ethereum/master/README.md"
       }
     ]
   }
