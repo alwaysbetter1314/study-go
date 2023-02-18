@@ -11,8 +11,8 @@
         "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/golang%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"
       },
       {
-        "label": "gin",
-        "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/README.md"
+        "label": "go数据类型",
+        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"
       },
       {
         "label": "go-ethereum",
@@ -23,6 +23,10 @@
   {
     "label":"第二章",
         "children": [
+          {
+            "label":"额外教程",
+            "url":"https://raw.githubusercontent.com/cnymw/GolangStudy/master/README.md"
+          },
             {
               "label": "gin",
               "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/README.md"
