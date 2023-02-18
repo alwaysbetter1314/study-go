@@ -24,7 +24,7 @@
     "label":"第二章",
         "children": [
           {
-            "label":"额外教程",
+            "label":"更多go教程",
             "url":"https://raw.githubusercontent.com/cnymw/GolangStudy/master/README.md"
           },
             {
