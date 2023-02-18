@@ -1,48 +1,46 @@
 [
   {
-    "label": "第一章",
-    "children": [
-      {
-        "label": "简介",
-        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/README.md"
-      },
-      {
-        "label": "go基础语法",
-        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"
-      },
-      {
-        "label": "go数据类型",
-        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"
-      },
-      {
-        "label": "go泛型",
-        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E6%B3%9B%E5%9E%8B"
-      },
-            {
-        "label": "go并发"
-        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%B9%B6%E5%8F%91"
-      },
-            {
-        "label": "go检测竟态条件"
-        "url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E6%A3%80%E6%B5%8B%E7%AB%9E%E6%80%81%E6%9D%A1%E4%BB%B6"
-      },
-    ]
-  },
-  {
-    "label":"第二章",
-        "children": [
-          {
-            "label":"更多go教程",
-            "url":"https://raw.githubusercontent.com/cnymw/GolangStudy/master/README.md"
-          },
-            {
-              "label": "gin",
-              "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/README.md"
-            },
-            {
-              "label": "go-ethereum",
-              "url": "https://raw.githubusercontent.com/ethereum/go-ethereum/master/README.md"
-            }
-        ]
-  }
+		"label": "第一章",
+		"children": [{
+				"label": "简介",
+				"url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/README.md"
+			},
+			{
+				"label": "go基础语法",
+				"url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"
+			},
+			{
+				"label": "go数据类型",
+				"url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"
+			},
+			{
+				"label": "go泛型",
+				"url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E6%B3%9B%E5%9E%8B"
+			},
+			{
+				"label": "go并发",
+				"url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E5%B9%B6%E5%8F%91"
+			},
+			{
+				"label": "go检测竟态条件",
+				"url": "https://raw.githubusercontent.com/chenfengshf/study-go/main/%E7%AC%AC%E4%B8%80%E7%AB%A0/go%E6%A3%80%E6%B5%8B%E7%AB%9E%E6%80%81%E6%9D%A1%E4%BB%B6"
+			}
+		]
+	},
+	{
+		"label": "第二章",
+		"children": [{
+				"label": "更多go教程",
+				"url": "https://raw.githubusercontent.com/cnymw/GolangStudy/master/README.md"
+			},
+			{
+				"label": "gin",
+				"url": "https://raw.githubusercontent.com/gin-gonic/gin/master/README.md"
+			},
+			{
+				"label": "go-ethereum",
+				"url": "https://raw.githubusercontent.com/ethereum/go-ethereum/master/README.md"
+			}
+		]
+	}
 ]
