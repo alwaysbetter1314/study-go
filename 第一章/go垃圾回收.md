@@ -17,16 +17,17 @@ Mark Setup - STW
 Marking - Concurrent
 Mark Termination -STW
 
-下面看各个阶段的详细说明。
+## 下面看各个阶段的详细说明。
 Mark Setup -STW
 当回收开始，首先要做的肯定是开启写屏障(Write Barrier)。写屏障的目的是在collector和应用程序goroutines并发时候，允许回收器去维持数据在堆中的完整性。
 为了开启写屏障，每个运行中的应用程序goroutine必须要停下来。这个活动通常非常快，平均在10~30微妙之间。前提是在你的应用程序goroutines行为合理的情况下。
 注意：为了更好的理解下面的调度图解，最好先看过之前写的golang调度文章
-图1.1
-![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/7/12/16be4d3e1ecf8363~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image)
+
+![图1.1](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/7/12/16be4d3e1ecf8363~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image)
 
 图1给出了4个应用程序goroutines，在开始垃圾回收之前它们都在运行中。为了进行回收，4个goroutines中每一个都必须被停下来，这么做的唯一方式就是让回收器去检查并等待goroutine去做方法调用。方法调用确保了goroutines在安全的点停下来。如果其中一个goroutine没有进行方法调用但是其它的做了方法调用，会发生什么？
-图1.2
+
+![图1.2](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/7/12/16be4d3fa74cf3af~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image)
 
 图1.2给出了一个问题的实际案例。如果P4的goroutine不停下来的话，垃圾回收就无法启动。但是P4正在执行一个tight loop去做一些math处理，这导致回收根本无法开始。
 L1：
